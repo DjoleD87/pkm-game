@@ -87,18 +87,20 @@
             // vaseImeLabel
             // 
             this.vaseImeLabel.AutoSize = true;
+            this.vaseImeLabel.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vaseImeLabel.Location = new System.Drawing.Point(9, 43);
             this.vaseImeLabel.Name = "vaseImeLabel";
-            this.vaseImeLabel.Size = new System.Drawing.Size(50, 13);
+            this.vaseImeLabel.Size = new System.Drawing.Size(56, 16);
             this.vaseImeLabel.TabIndex = 0;
             this.vaseImeLabel.Text = "Vase ime";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(9, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 13);
+            this.label2.Size = new System.Drawing.Size(117, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Broj dobijenih partija";
             // 
@@ -121,6 +123,7 @@
             // 
             // startGameBtn
             // 
+            this.startGameBtn.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startGameBtn.Location = new System.Drawing.Point(12, 100);
             this.startGameBtn.Name = "startGameBtn";
             this.startGameBtn.Size = new System.Drawing.Size(153, 29);
@@ -280,9 +283,10 @@
             // scoreLabel1
             // 
             this.scoreLabel1.AutoSize = true;
+            this.scoreLabel1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreLabel1.Location = new System.Drawing.Point(246, 113);
             this.scoreLabel1.Name = "scoreLabel1";
-            this.scoreLabel1.Size = new System.Drawing.Size(35, 13);
+            this.scoreLabel1.Size = new System.Drawing.Size(38, 16);
             this.scoreLabel1.TabIndex = 18;
             this.scoreLabel1.Text = "Score";
             this.scoreLabel1.Visible = false;
@@ -290,9 +294,10 @@
             // scoreLabel2
             // 
             this.scoreLabel2.AutoSize = true;
+            this.scoreLabel2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreLabel2.Location = new System.Drawing.Point(617, 113);
             this.scoreLabel2.Name = "scoreLabel2";
-            this.scoreLabel2.Size = new System.Drawing.Size(35, 13);
+            this.scoreLabel2.Size = new System.Drawing.Size(38, 16);
             this.scoreLabel2.TabIndex = 19;
             this.scoreLabel2.Text = "Score";
             this.scoreLabel2.Visible = false;
@@ -377,6 +382,7 @@
             // 
             // exitBtn
             // 
+            this.exitBtn.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitBtn.Location = new System.Drawing.Point(695, 417);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.Size = new System.Drawing.Size(75, 23);
@@ -387,6 +393,7 @@
             // 
             // newGameBtn
             // 
+            this.newGameBtn.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newGameBtn.Location = new System.Drawing.Point(12, 402);
             this.newGameBtn.Name = "newGameBtn";
             this.newGameBtn.Size = new System.Drawing.Size(154, 38);
