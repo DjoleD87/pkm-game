@@ -93,7 +93,7 @@ namespace papir_kamen_i_makaze
         //Izlaz btn
         private void exitBtn_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
         
         //New game btn
