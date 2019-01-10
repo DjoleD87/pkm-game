@@ -167,6 +167,7 @@
             this.Name = "About_Page";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About_Page";
+            this.Load += new System.EventHandler(this.About_Page_LoadAsync);
             this.ResumeLayout(false);
             this.PerformLayout();
 
