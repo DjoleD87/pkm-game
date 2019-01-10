@@ -548,7 +548,7 @@
             this.Controls.Add(this.yourNameBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.vaseImeLabel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.papirPicture1)).EndInit();
