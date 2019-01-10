@@ -93,7 +93,7 @@ namespace papir_kamen_i_makaze
         //Izlaz btn
         private void exitBtn_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
         
         //New game btn
@@ -346,6 +346,12 @@ namespace papir_kamen_i_makaze
             {
                 compiuterNameLabel.Text = "John";
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            About_Page aP = new About_Page();
+            aP.ShowDialog();
         }
     }
     
