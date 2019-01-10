@@ -66,6 +66,7 @@
             this.winerSmile1 = new System.Windows.Forms.PictureBox();
             this.winerSmile2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.papirPicture1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coosePapirBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cooseMakazeBox)).BeginInit();
@@ -507,10 +508,22 @@
             this.pictureBox1.TabIndex = 41;
             this.pictureBox1.TabStop = false;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(688, 13);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(67, 13);
+            this.linkLabel1.TabIndex = 42;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "About Admin";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Form1
             // 
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(784, 452);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.winerSmile2);
             this.Controls.Add(this.winerSmile1);
@@ -612,6 +625,7 @@
         private System.Windows.Forms.PictureBox winerSmile1;
         private System.Windows.Forms.PictureBox winerSmile2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
