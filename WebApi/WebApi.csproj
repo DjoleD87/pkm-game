@@ -190,10 +190,26 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AboutAdminController.cs" />
+    <Compile Include="Controllers\About_adController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AbModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AbModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AbModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AbModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AbModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\aboutAdminModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -211,7 +227,7 @@
       <DependentUpon>aboutAdminModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\About_ad.cs">
-      <DependentUpon>aboutAdminModel.tt</DependentUpon>
+      <DependentUpon>AbModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -224,6 +240,16 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Models\AbModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AbModel.edmx</DependentUpon>
+      <LastGenOutput>AbModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\AbModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AbModel.edmx</DependentUpon>
+      <LastGenOutput>AbModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\aboutAdminModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>aboutAdminModel.Context.cs</LastGenOutput>
@@ -264,6 +290,13 @@
     </EntityDeploy>
     <Content Include="Models\aboutAdminModel.edmx.diagram">
       <DependentUpon>aboutAdminModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\AbModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AbModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\AbModel.edmx.diagram">
+      <DependentUpon>AbModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
