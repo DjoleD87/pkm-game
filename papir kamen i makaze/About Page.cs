@@ -29,7 +29,7 @@ namespace papir_kamen_i_makaze
         {
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://localhost:61421");
-            HttpResponseMessage response = client.GetAsync("api/AboutAdmin").Result;
+            HttpResponseMessage response = client.GetAsync("api/About_ad").Result;
             About_ad[] reports = await response.Content.ReadAsAsync<About_ad[]>();
             foreach (var report in reports)
             {
